@@ -1,0 +1,185 @@
+/*
+tekstkleur:         #665950  
+linkKleur:          #4C86CF 
+linkHover:          #058
+achtergrondBleek:   #FCFAF8
+achtergrondDonker:  #EBE8E5
+achtergrondGroen:   #8FB209
+borderGrijs:        #DCDAD8
+headingGroen:       #7ea107 
+headingDonker:      #52463f
+headingPaars:       #9A3098
+code:               #8B1C00
+img rand:           #E9DCE9 
+*/
+/* 
+    Created on : 11-mrt-2016, 14:49:20
+    Author     : Steven
+*/
+
+body {
+    padding:0;
+    margin:0;
+    color:#665950;
+    font-family: arial;
+}
+
+hr {
+    width: 60%;
+    margin: 0 auto;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    background: #999;
+}
+
+.smal {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.2em 0;
+}
+.groenbalk {
+    background-color: #8FB209;
+    color: #FCFAF8;
+}
+.rechts {
+    text-align: right;
+}
+.lefty {
+    float: left;
+}
+.menu ul {
+    list-style-type: none;
+    margin-top: 4.5em
+}
+.menu ul li {
+    display: inline;
+    margin: 0 1em;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #665950;
+    font-weight: bold;
+}
+#tussen-home ul {
+    list-style-image: url(img/check.png);
+}
+#tussen-home ul li{
+    float: left;
+    width: 30%;
+    height: 6em;
+    margin: 0 1em;
+}
+#tussen-home em {
+    font-weight: bold;
+    font-style: normal;
+    color: #8B1C00;
+}
+
+.fotogal {
+    padding-top:5em;
+}
+
+.fotogal ul {
+    list-style-type: none;
+}
+.fotogal ul li{
+    float: left;
+    width: 25%;
+    padding-top: 2em;
+}
+.fotogal h3 {
+    color: black;
+}
+.fotogal li:nth-child(odd) a img{
+    transform-origin: center;
+    transform: rotate(-6deg);
+}
+
+.fotogal li:nth-child(even) a img{
+    transform-origin: center;
+    transform: rotate(6deg);
+}
+h2 {
+    color: #7ea107;
+}
+.AGlicht {
+    background-color: #FCFAF8;
+}
+.AGdonker {
+    background-color: #EBE8E5;
+}
+h1 {
+    color: #7ea107;
+    font-size: 3.5em;
+    margin-bottom: 0.1em;
+}
+#bovenbalk-home h2 {
+    color: #7ea107;
+    font-style: italic;
+    padding-top: 0;
+}
+#bovenbalk-home p {
+    margin-bottom: 2.5em
+}
+#tussen-home h2{
+    color: #7ea107;
+    padding: 1.5em 0 1em 12em;
+}
+#tussen-home p {
+    padding: 0 0 1.5em 18em;
+}
+.kol {
+    float:left;
+    width: 30%;
+    padding: 0 1em
+}
+img {
+    border: 0.5em solid #DCDAD8;
+    box-shadow: 15px 15px 10px rgba(0,0,0,0.3);
+}
+#logo img{
+    border :none;
+    box-shadow: none;
+}
+#devel {
+    float: right;
+    transform: matrix(1,.1,-0.3,1,-80,10);
+}
+#respon {
+    float: left;
+    transform: matrix(1,-0.1,0.1,1,0,-25)
+}
+#html5 {
+    float:right;
+    border :none;
+    box-shadow: none;
+}
+#php-code {
+    float: right;
+    transform: matrix(1,0.1,-0.1,1,-20,10)
+}
+#mock {
+    display: block;
+    margin: 0 auto;
+    transform: matrix(1,-0.1,0.1,1,0,0)
+}
+#groep {
+    float: right;
+    transform: matrix(1,0.1,-0.1,1,-20,10)
+}
+.clearFix:before, .clearFix:after {
+    content: " ";
+    display: table;
+}
+.clearFix:after {
+    clear: both;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4C86CF 
+}
+article code {
+    font-size: 1.5em;
+    color: #8B1C00;
+}
