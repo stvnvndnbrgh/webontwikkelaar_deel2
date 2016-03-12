@@ -88,11 +88,21 @@ hr {
     padding-top: 2em;
 }
 .fotogal h3 {
-    color: black;
+    color: #333;
 }
 .fotogal li:nth-child(odd) a img{
     transform-origin: center;
     transform: rotate(-6deg);
+}
+
+.fotogal li:nth-child(odd) a h3{
+    text-align: right;
+    padding-right: 7em;
+}
+
+.fotogal li:nth-child(odd) a p{
+    text-align: right;
+    padding-right: 8em;    
 }
 
 .fotogal li:nth-child(even) a img{
