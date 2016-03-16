@@ -229,7 +229,7 @@ article code {
     width:50%;
 
 }
-#frmgegevens input, #frmgegevens label{
+#frmgegevens input, #frmgegevens label, #frmgegevens textarea{
     display: block;
 }
 #vnaam, #email {
@@ -245,6 +245,10 @@ article code {
     color: #FCFAF8;
 }
 #vragen {
-    width: 300px;
+    margin-left: 150px;
+    width: 298px;
     height:120px;
+}
+.contact {
+    width: 50%;
 }
