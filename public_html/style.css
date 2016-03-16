@@ -33,7 +33,7 @@ hr {
 }
 
 .smal {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding: 0.2em 0;
 }
@@ -198,12 +198,53 @@ article code {
 }
 #aanmelden {
     background-color: #8FB209;
-    border: 1px solid red;
+    border: 1px solid darkcyan;
     height: 1.8em;
     margin: 0;
+    color: #FCFAF8;
+    width: 100px
 }
 .contact-fotogal img{
     border :none;
     box-shadow: none;
-    transform: scale(0.95);
+}
+ 
+#contact h1{
+    color:#9A3098;
+}
+.zeventig {
+    width: 70%;
+    float: left
+}
+#contact ul{
+    list-style-type: none; 
+}
+#adres {
+    list-style-type: none;
+}
+#adres a{
+    color:#665950;
+}
+#vragen {
+    width:50%;
+
+}
+#frmgegevens input, #frmgegevens label{
+    display: block;
+}
+#vnaam, #email {
+    margin: 5px 0 5px 150px;
+    width: 300px
+}
+#frmgegevens label{
+    float: left;
+}
+#stuur{
+    margin-left: 150px;
+    background-color: #7ea107;
+    color: #FCFAF8;
+}
+#vragen {
+    width: 300px;
+    height:120px;
 }
